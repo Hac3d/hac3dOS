@@ -1,7 +1,7 @@
 :root {
-    --font-family: 'CaskaydiaMono Nerd Font', 'Geist Mono', 'Courier New', 'Terminal', monospace;
+    --font-family: 'Terminal', monospace;
     --font-size: 14px;
-    --terminal-font: 'CaskaydiaMono Nerd Font', 'Geist Mono', 'Courier New', 'Terminal', monospace;
+    --terminal-font: 'Terminal', monospace;
     --terminal-accent-color: #ef7fef;
     --terminal-error-color: #ff0000;
 }
