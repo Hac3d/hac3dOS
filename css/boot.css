@@ -1,0 +1,94 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'CaskaydiaMono Nerd Font', 'Courier New', 'Terminal', monospace;
+    font-size: 9px;
+    overflow: hidden;
+    cursor:text;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --terminal-fg-color: black;
+    }
+    html,body {
+        background: #ffffff;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html,body {
+        background: #00000060;
+        color: white;
+    }
+}
+
+main {
+    width: 100%;
+    /* height: calc(100% - 33px); */
+    height: 100%;
+    position: relative;
+    top: 33px;
+    padding: 8px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: transparent !important;
+}
+
+.textColorPink {
+    color: #ff00afff !important;
+}
+
+.textColorLighterPurple {
+    color: #ef7fef !important;
+}
+
+.textColorLightPurple {
+    color: #a432a4 !important;
+}
+
+.textColorPurple {
+    color: #5f00a3ff !important;
+}
+
+.textColorGreen {
+    color: #00cc00 !important;
+}
+
+.textColorGray {
+    color: #696969 !important;
+}
+
+.textColorRed {
+    color: #ff0000 !important;
+}
+
+.textColorYellow {
+    color: #ffff00 !important;
+}
+
+.textColorCyan {
+    color: #00ffff !important;
+}
+
+.textColorWhite {
+    color: #ffffff !important;
+}
+
+.textColorBlue {
+    color: #0000ff !important;
+}
+
+.textColorBlack {
+    color: #000000 !important;
+}
+
+@font-face {
+    font-family: 'Terminal';
+    src: url('../assets/fonts/fixed_bmp.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
